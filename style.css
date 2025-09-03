@@ -8,6 +8,7 @@ header {
   letter-spacing: 1px;
   box-shadow: #3b3b3b 0px 0px 6px;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -26,7 +27,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('imagemTurma.jpg'); 
+  background-image: url('fotoTurma.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,7 +47,7 @@ body::after {
 
 
 .container {
-  margin-top: 280px ;
+  margin-top: 340px ;
   flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
