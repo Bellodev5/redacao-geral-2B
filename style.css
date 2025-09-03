@@ -47,16 +47,17 @@ body::after {
 
 
 .container {
-  margin-top: 340px ;
+  margin-top: 500px ;
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
   gap: 20px;
   padding: 30px;
-  max-width: 1000px;
+  max-width: 100%;
 }
 
 .card {
+  max-width: 220px;  
   padding: 6px;
   background: white;
   border-radius: 10px;
@@ -74,14 +75,15 @@ body::after {
 }
 
 .card img {
-  width: 100%;
+  width: 100%px;
   height: 220px;
-  margin: 0 auto; 
+  margin: 0 auto 8px; 
   padding: 0px; 
 }
 
 .card h3 {
-  margin: 4px 0px 1px;
+  margin: 4px 0 2px;
+  font-size: 13px;
   color: #0f65ab;
 }
 
